@@ -1,4 +1,3 @@
-// load the todo model
 var Todo = require('./models/todo');
 
 function getTodos(res) {
@@ -12,7 +11,7 @@ function getTodos(res) {
         res.json(todos); // return all todos in JSON format
     });
 };
-//expose the routes to our app
+
 module.exports = function (app) {
 
     // api ---------------------------------------------------------------------
