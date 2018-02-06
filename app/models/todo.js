@@ -6,4 +6,4 @@ module.exports = mongoose.model('Todo', {
         default: ''
     },
     done: Boolean
-});
+})
